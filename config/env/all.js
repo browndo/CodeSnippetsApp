@@ -15,6 +15,7 @@ module.exports = {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.css',
 				'public/lib/bootstrap/dist/css/bootstrap-theme.css',
+				'//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/agate.min.css'
 				//'public/lib/angular-highlightjs/styles/agate.css'
 			],
 			js: [
@@ -28,7 +29,10 @@ module.exports = {
 				'public/lib/angular-ui-utils/ui-utils.js',
 				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
 				'public/lig/angular-highlightjs/angular-highlightjs.js',
-				'public/lib/angular-highlightjs/angular-highlightjs.min.js'
+				//'//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.js',
+				//'//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js'
+				'public/lib/angular-highlightjs/angular-highlightjs.min.js'//,
+				//'//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js'
 			]
 		},
 		css: [
